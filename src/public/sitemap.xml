@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Service Pages (6 services) -->
+  <url>
+    <loc>https://yourdomain.com/carpet-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/upholstery-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/tile-grout-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/area-rug-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/dryer-vent-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/hvac-vent-cleaning</loc>
+    <lastmod>2024-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- City-Service Landing Pages (120 pages total = 20 cities × 6 services) -->
+  
+  <!-- Bethlehem, PA -->
+  <url><loc>https://yourdomain.com/bethlehem-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/bethlehem-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/bethlehem-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/bethlehem-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/bethlehem-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yourdomain.com/bethlehem-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Allentown, PA -->
+  <url><loc>https://yourdomain.com/allentown-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/allentown-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/allentown-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/allentown-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/allentown-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/allentown-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Easton, PA -->
+  <url><loc>https://yourdomain.com/easton-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/easton-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/easton-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/easton-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/easton-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yourdomain.com/easton-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Reading, PA -->
+  <url><loc>https://yourdomain.com/reading-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/reading-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/reading-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/reading-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/reading-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/reading-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Pottstown, PA -->
+  <url><loc>https://yourdomain.com/pottstown-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/pottstown-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/pottstown-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/pottstown-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/pottstown-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/pottstown-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Quakertown, PA -->
+  <url><loc>https://yourdomain.com/quakertown-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/quakertown-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/quakertown-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/quakertown-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/quakertown-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/quakertown-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Nazareth, PA -->
+  <url><loc>https://yourdomain.com/nazareth-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/nazareth-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/nazareth-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/nazareth-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/nazareth-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/nazareth-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Emmaus, PA -->
+  <url><loc>https://yourdomain.com/emmaus-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/emmaus-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/emmaus-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/emmaus-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/emmaus-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/emmaus-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Macungie, PA -->
+  <url><loc>https://yourdomain.com/macungie-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/macungie-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/macungie-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/macungie-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/macungie-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/macungie-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Hellertown, PA -->
+  <url><loc>https://yourdomain.com/hellertown-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hellertown-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hellertown-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hellertown-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hellertown-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hellertown-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Phillipsburg, NJ -->
+  <url><loc>https://yourdomain.com/phillipsburg-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/phillipsburg-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/phillipsburg-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/phillipsburg-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/phillipsburg-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/phillipsburg-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Clinton, NJ -->
+  <url><loc>https://yourdomain.com/clinton-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/clinton-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/clinton-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/clinton-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/clinton-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/clinton-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Flemington, NJ -->
+  <url><loc>https://yourdomain.com/flemington-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/flemington-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/flemington-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/flemington-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/flemington-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/flemington-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Somerville, NJ -->
+  <url><loc>https://yourdomain.com/somerville-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/somerville-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/somerville-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/somerville-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/somerville-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/somerville-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Bridgewater, NJ -->
+  <url><loc>https://yourdomain.com/bridgewater-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/bridgewater-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/bridgewater-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/bridgewater-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/bridgewater-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/bridgewater-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Raritan, NJ -->
+  <url><loc>https://yourdomain.com/raritan-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/raritan-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/raritan-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/raritan-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/raritan-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/raritan-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Hackettstown, NJ -->
+  <url><loc>https://yourdomain.com/hackettstown-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hackettstown-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hackettstown-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hackettstown-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hackettstown-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/hackettstown-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Washington, NJ -->
+  <url><loc>https://yourdomain.com/washington-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/washington-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/washington-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/washington-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/washington-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/washington-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Milford, NJ -->
+  <url><loc>https://yourdomain.com/milford-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/milford-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/milford-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/milford-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/milford-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/milford-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Lambertville, NJ -->
+  <url><loc>https://yourdomain.com/lambertville-carpet-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/lambertville-upholstery-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/lambertville-tile-grout-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/lambertville-area-rug-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/lambertville-dryer-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://yourdomain.com/lambertville-hvac-vent-cleaning</loc><lastmod>2024-11-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+</urlset>

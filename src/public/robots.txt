@@ -1,0 +1,11 @@
+# Robots.txt for EcoGreen Pro Website
+# Allow all search engines to crawl all pages
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ecogreenpro.com/sitemap.xml
+
+# Crawl-delay to be respectful
+Crawl-delay: 1
