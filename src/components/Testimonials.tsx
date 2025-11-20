@@ -2,9 +2,12 @@ import { Star } from "lucide-react";
 import { testimonials } from "../data/testimonials";
 import { useState } from "react";
 import { trackPhoneCall } from "../hooks/useGoogleTagManager";
+import { motion } from "framer-motion";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export function Testimonials() {
   const [expandedReviews, setExpandedReviews] = useState<Set<string>>(new Set());
+  const { ref, isInView } = useScrollAnimation();
 
   const toggleReview = (id: string) => {
     setExpandedReviews(prev => {
@@ -23,11 +26,42 @@ export function Testimonials() {
     return text.substring(0, maxLength) + "...";
   };
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 0.4,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-emerald-50">
-      <div className="container mx-auto px-4 max-w-7xl">
-        <div className="text-center mb-12">
-          <h2 className="text-emerald-600 mb-4">What Our Customers Say</h2>
+    <section className="py-16 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute top-1/2 left-0 w-96 h-96 bg-emerald-100 rounded-full blur-3xl opacity-20 -translate-y-1/2 -translate-x-1/2" />
+      <div className="absolute top-1/2 right-0 w-96 h-96 bg-green-100 rounded-full blur-3xl opacity-20 -translate-y-1/2 translate-x-1/2" />
+      
+      <div className="container mx-auto px-4 max-w-7xl relative z-10" ref={ref as any}>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-12"
+        >
+          <h2 className="text-4xl font-bold text-emerald-600 mb-4">What Our Customers Say</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Don't just take our word for it - hear from our satisfied customers across the Lehigh Valley and beyond.
           </p>
@@ -45,9 +79,14 @@ export function Testimonials() {
               <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
             </svg>
           </a>
-        </div>
+        </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={isInView ? "visible" : "hidden"}
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           {testimonials.map((testimonial) => {
             const isLongReview = testimonial.text.length > 200;
             const isExpanded = expandedReviews.has(testimonial.id);
@@ -56,9 +95,11 @@ export function Testimonials() {
               : testimonial.text;
 
             return (
-              <div
+              <motion.div
                 key={testimonial.id}
-                className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow"
+                variants={itemVariants}
+                whileHover={{ y: -5 }}
+                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-emerald-200"
               >
                 {/* Header */}
                 <div className="flex items-start justify-between mb-4">
@@ -112,27 +153,34 @@ export function Testimonials() {
                     {testimonial.service}
                   </div>
                 )}
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
-          <div className="bg-emerald-50 rounded-lg p-8 max-w-2xl mx-auto">
-            <h3 className="text-emerald-900 mb-2">Ready to experience our service?</h3>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="text-center mt-12"
+        >
+          <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 max-w-2xl mx-auto shadow-lg border-2 border-emerald-100">
+            <h3 className="text-2xl font-bold text-emerald-900 mb-2">Ready to experience our service?</h3>
             <p className="text-gray-700 mb-4">
               Join hundreds of satisfied customers across Pennsylvania and New Jersey.
             </p>
-            <a
+            <motion.a
               href="tel:484-268-3078"
-              className="inline-block bg-emerald-600 text-white px-8 py-3 rounded-lg hover:bg-emerald-700 transition-colors"
+              className="inline-block bg-emerald-600 text-white px-8 py-3 rounded-lg hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl hover:scale-105"
               onClick={() => trackPhoneCall('testimonials_cta')}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               Call (484) 268-3078
-            </a>
+            </motion.a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
