@@ -39,7 +39,7 @@ export function Services({ onSelectService }: ServicesProps) {
       <div className="absolute top-0 right-0 w-64 h-64 bg-green-100 rounded-full blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-green-100 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2" />
       
-      <div className="container mx-auto px-4 relative z-10" ref={ref as any}>
+      <div className="container mx-auto px-4 relative z-10" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
